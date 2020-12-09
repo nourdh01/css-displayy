@@ -1,0 +1,136 @@
+.header{
+    display: inline;
+   
+
+} 
+body{
+    font-weight: 400;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+    h1 {
+        font-size: 2.125rem;
+        color: #00b39b;
+        font-family: Work Sans,Arial,sans-serif;
+        text-align: center;
+
+}
+
+li { 
+    display: inline;
+}
+.dropdown-content{
+    display: block;
+
+}
+.nav{
+    background-color: bisque;
+}
+header nav div {display: flex; justify-content: flex-end;} 
+
+h1{
+    color: black;
+    display: block;
+    font-family:Arial,sans-serif;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.col-md-4{
+ padding: 1.735em 1.25em  0;
+margin: 15px;
+ border-radius: 10px;
+ height: 480px;
+ width: 250px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ transition: all .2s ease 1s;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+}
+
+.stats{
+    background-color: #e5faf8;
+}
+.grid{
+    display: grid;
+    grid-template-areas: 
+    "item0 item0 . item1 item2"
+    "item0 item0 .  item3 item4"
+    ; 
+
+}
+.item0{
+    grid-area: item0;
+}
+.item1{
+    grid-area: item1;
+}
+
+
+
+.item2{
+    grid-area: item2;
+    
+}
+.item3{
+    grid-area: item3;
+    
+}
+.item4{
+    grid-area: item4;
+    
+}
+.item1,.item2,.item3,.item4{
+    margin: 20px;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    background-color: white;
+    border-radius: 1em;
+}
+.item2{
+    size: 15px;
+    width: 250px;
+    padding-top: 2em;
+    margin: 3em;
+    
+
+}
+ .item4{
+     width: 250px;
+     margin: 2em;
+     animation: mymove 5s infinite;
+     animation-timing-function: linear;
+ }
+h2{
+    color: #00b39b;
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+    .flex-container2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+.figure{
+    background-color: white;
+    margin: 12px;
+    padding: 12px;
+}
+
+
+
+
+
+
+
+
+
+
